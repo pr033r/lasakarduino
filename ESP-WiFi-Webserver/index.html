@@ -4,18 +4,28 @@
   <meta charset="utf-8">
   
   
-  <title>Lasák Arduino</title>
+  <title>ESP WiFi Webserver | Lasák Arduino</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="My custom home Arduino projects for the automation">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Lasák Arduino">
-<meta property="og:url" content="http://example.com/index.html">
+  <meta name="description" content="Použitá deska je Arduino Uno WiFi Rev3 pro které není moc návodů. Popravdě drtivá většina návodů je jen pro desku Rev2. Rev3 má však ESP8266 čip integrovaný a pro nahrání kódu jak pro ATmega328P tak p">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ESP WiFi Webserver">
+<meta property="og:url" content="http://example.com/ESP-WiFi-Webserver/index.html">
 <meta property="og:site_name" content="Lasák Arduino">
-<meta property="og:description" content="My custom home Arduino projects for the automation">
+<meta property="og:description" content="Použitá deska je Arduino Uno WiFi Rev3 pro které není moc návodů. Popravdě drtivá většina návodů je jen pro desku Rev2. Rev3 má však ESP8266 čip integrovaný a pro nahrání kódu jak pro ATmega328P tak p">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://example.com/images/dip_switch.png">
+<meta property="og:image" content="http://example.com/images/wifi_led_blink_1.jpg">
+<meta property="og:image" content="http://example.com/images/wifi_led_blink_4.jpg">
+<meta property="article:published_time" content="2023-01-29T20:51:23.000Z">
+<meta property="article:modified_time" content="2023-01-29T21:31:18.067Z">
 <meta property="article:author" content="Adam Lasák">
-<meta property="article:tag" content="arduino, programming, home automation">
+<meta property="article:tag" content="ESP8266">
+<meta property="article:tag" content="WiFi">
+<meta property="article:tag" content="Webserver">
+<meta property="article:tag" content="ArduinoUNOWiFiRev3">
+<meta property="article:tag" content="LEDBlink">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/images/dip_switch.png">
   
     <link rel="alternate" href="/atom.xml" title="Lasák Arduino" type="application/atom+xml">
   
@@ -72,9 +82,7 @@
 </header>
 
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-ESP-WiFi-Webserver" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+        <section id="main"><article id="post-ESP-WiFi-Webserver" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/ESP-WiFi-Webserver/" class="article-date">
   <time class="dt-published" datetime="2023-01-29T20:51:23.000Z" itemprop="datePublished">29.01. 2023</time>
@@ -87,8 +95,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/ESP-WiFi-Webserver/">ESP WiFi Webserver</a>
+    <h1 class="p-name article-title" itemprop="headline name">
+      ESP WiFi Webserver
     </h1>
   
 
@@ -125,55 +133,19 @@
     </footer>
   </div>
   
-</article>
-
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/hello-world/" class="article-date">
-  <time class="dt-published" datetime="2023-01-29T19:22:54.161Z" itemprop="datePublished">29.01. 2023</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/hello-world/">Stepper motor (servo motor)</a>
-    </h1>
+    <a href="/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Stepper motor (servo motor)</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>Pomocí napsaného kódu jsem rozeběhl servo motor, který se otáčí o celých 360 stupňů. Použitá deska je klasická <strong>originální Arduino Uno</strong> s předpřipraveným modulem pro tranzistorové pole <strong>ULN2003AN</strong> a čtyřmi výstupními LED diodami indikující v jaké fázi se servo aktuálně nachází. Vstupy tranzistorového pole jsou na pinech 8, ~9, ~10 a ~11. Přímo na modulu to jsou IN1, IN2, IN3 a IN4. Pro napájení je použito klasických 5V. </p>
-<p>Odkaz na kód je <a target="_blank" rel="noopener" href="https://github.com/pr033r/arduino/blob/main/stepper_motor/stepper_motor.ino">zde</a></p>
-<h3 id="Schema-zapojeni"><a href="#Schema-zapojeni" class="headerlink" title="Schéma zapojení:"></a>Schéma zapojení:</h3><p><img src="/images/stepper_motor.jpg"></p>
-<h3 id="Pouzity-kod"><a href="#Pouzity-kod" class="headerlink" title="Použitý kód:"></a>Použitý kód:</h3><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// digital inputs</span></span><br><span class="line"><span class="type">const</span> <span class="type">int</span> in1 = <span class="number">8</span>;</span><br><span class="line"><span class="type">const</span> <span class="type">int</span> in2 = <span class="number">9</span>;</span><br><span class="line"><span class="type">const</span> <span class="type">int</span> in3 = <span class="number">10</span>;</span><br><span class="line"><span class="type">const</span> <span class="type">int</span> in4 = <span class="number">11</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// higher number means lower speed</span></span><br><span class="line"><span class="type">unsigned</span> <span class="type">int</span> speed = <span class="number">1</span>;</span><br><span class="line"><span class="type">unsigned</span> <span class="type">int</span> angle = <span class="number">360</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">setup</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  <span class="comment">// digital outputs</span></span><br><span class="line">  <span class="built_in">pinMode</span>(in1, OUTPUT);</span><br><span class="line">  <span class="built_in">pinMode</span>(in2, OUTPUT);</span><br><span class="line">  <span class="built_in">pinMode</span>(in3, OUTPUT);</span><br><span class="line">  <span class="built_in">pinMode</span>(in4, OUTPUT);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">loop</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  <span class="comment">// full rotation 360 degrees = 512 calls</span></span><br><span class="line">  <span class="keyword">for</span> (<span class="type">unsigned</span> <span class="type">int</span> i = <span class="number">0</span>; i &lt; (angle * <span class="number">64</span> / <span class="number">45</span>); ++i) &#123;</span><br><span class="line">    _rotation();</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="built_in">delay</span>(<span class="number">1000</span>);</span><br><span class="line"></span><br><span class="line">  <span class="keyword">for</span> (<span class="type">unsigned</span> <span class="type">int</span> i = <span class="number">0</span>; i &lt; (angle * <span class="number">64</span> / <span class="number">45</span>); ++i) &#123;</span><br><span class="line">    _oppositeRotation();</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="built_in">delay</span>(<span class="number">1000</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">void</span> _rotation() &#123;</span><br><span class="line">  _step1();</span><br><span class="line">  _step2();</span><br><span class="line">  _step3();</span><br><span class="line">  _step4();</span><br><span class="line">  _step5();</span><br><span class="line">  _step6();</span><br><span class="line">  _step7();</span><br><span class="line">  _step8();</span><br><span class="line">&#125;</span><br><span class="line"><span class="type">void</span> _oppositeRotation() &#123;</span><br><span class="line">  _step8();</span><br><span class="line">  _step7();</span><br><span class="line">  _step6();</span><br><span class="line">  _step5();</span><br><span class="line">  _step4();</span><br><span class="line">  _step3();</span><br><span class="line">  _step2();</span><br><span class="line">  _step1();</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// Every step contains given order by the official</span></span><br><span class="line"><span class="comment">// producer for the correct motor switching</span></span><br><span class="line"><span class="type">void</span> _step1() &#123;</span><br><span class="line">  <span class="built_in">digitalWrite</span>(in1, HIGH);</span><br><span class="line">  <span class="built_in">digitalWrite</span>(in2, LOW);</span><br><span class="line">  <span class="built_in">digitalWrite</span>(in3, LOW);</span><br><span class="line">  <span class="built_in">digitalWrite</span>(in4, LOW);</span><br><span class="line">  <span class="built_in">delay</span>(speed);</span><br><span class="line">&#125;</span><br><span class="line"><span class="type">void</span> _step2() &#123;</span><br><span class="line">  <span class="built_in">digitalWrite</span>(in1, HIGH);</span><br><span class="line">  <span class="built_in">digitalWrite</span>(in2, HIGH);</span><br><span class="line">  <span class="built_in">digitalWrite</span>(in3, LOW);</span><br><span class="line">  <span class="built_in">digitalWrite</span>(in4, LOW);</span><br><span class="line">  <span class="built_in">delay</span>(speed);</span><br><span class="line">&#125;</span><br><span class="line"><span class="type">void</span> _step3() &#123;</span><br><span class="line">  <span class="built_in">digitalWrite</span>(in1, LOW);</span><br><span class="line">  <span class="built_in">digitalWrite</span>(in2, HIGH);</span><br><span class="line">  <span class="built_in">digitalWrite</span>(in3, LOW);</span><br><span class="line">  <span class="built_in">digitalWrite</span>(in4, LOW);</span><br><span class="line">  <span class="built_in">delay</span>(speed);</span><br><span class="line">&#125;</span><br><span class="line"><span class="type">void</span> _step4() &#123;</span><br><span class="line">  <span class="built_in">digitalWrite</span>(in1, LOW);</span><br><span class="line">  <span class="built_in">digitalWrite</span>(in2, HIGH);</span><br><span class="line">  <span class="built_in">digitalWrite</span>(in3, HIGH);</span><br><span class="line">  <span class="built_in">digitalWrite</span>(in4, LOW);</span><br><span class="line">  <span class="built_in">delay</span>(speed);</span><br><span class="line">&#125;</span><br><span class="line"><span class="type">void</span> _step5() &#123;</span><br><span class="line">  <span class="built_in">digitalWrite</span>(in1, LOW);</span><br><span class="line">  <span class="built_in">digitalWrite</span>(in2, LOW);</span><br><span class="line">  <span class="built_in">digitalWrite</span>(in3, HIGH);</span><br><span class="line">  <span class="built_in">digitalWrite</span>(in4, LOW);</span><br><span class="line">  <span class="built_in">delay</span>(speed);</span><br><span class="line">&#125;</span><br><span class="line"><span class="type">void</span> _step6() &#123;</span><br><span class="line">  <span class="built_in">digitalWrite</span>(in1, LOW);</span><br><span class="line">  <span class="built_in">digitalWrite</span>(in2, LOW);</span><br><span class="line">  <span class="built_in">digitalWrite</span>(in3, HIGH);</span><br><span class="line">  <span class="built_in">digitalWrite</span>(in4, HIGH);</span><br><span class="line">  <span class="built_in">delay</span>(speed);</span><br><span class="line">&#125;</span><br><span class="line"><span class="type">void</span> _step7() &#123;</span><br><span class="line">  <span class="built_in">digitalWrite</span>(in1, LOW);</span><br><span class="line">  <span class="built_in">digitalWrite</span>(in2, LOW);</span><br><span class="line">  <span class="built_in">digitalWrite</span>(in3, LOW);</span><br><span class="line">  <span class="built_in">digitalWrite</span>(in4, HIGH);</span><br><span class="line">  <span class="built_in">delay</span>(speed);</span><br><span class="line">&#125;</span><br><span class="line"><span class="type">void</span> _step8() &#123;</span><br><span class="line">  <span class="built_in">digitalWrite</span>(in1, HIGH);</span><br><span class="line">  <span class="built_in">digitalWrite</span>(in2, LOW);</span><br><span class="line">  <span class="built_in">digitalWrite</span>(in3, LOW);</span><br><span class="line">  <span class="built_in">digitalWrite</span>(in4, HIGH);</span><br><span class="line">  <span class="built_in">delay</span>(speed);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/hello-world/" data-id="cldhwdkk7000b9siz23fd9van" data-title="Stepper motor (servo motor)" class="article-share-link">Share</a>
-      
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ArduinoUNO/" rel="tag">ArduinoUNO</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/servo/" rel="tag">servo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tranzistorovePole/" rel="tag">tranzistorovePole</a></li></ul>
-
-    </footer>
-  </div>
   
 </article>
-
-
-
-  
 
 
 </section>
