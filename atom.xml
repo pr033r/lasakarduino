@@ -3,11 +3,11 @@
   <title>Lasák Arduino</title>
   
   <subtitle>Domácí Arduino projekty pro IoT</subtitle>
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://pr033r.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://pr033r.github.io/"/>
   <updated>2023-01-30T09:00:16.423Z</updated>
-  <id>http://example.com/</id>
+  <id>https://pr033r.github.io/</id>
   
   <author>
     <name>Adam Lasák</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Popis a programování modulu ESP8266</title>
-    <link href="http://example.com/Popis-a-programovani-modulu-ESP8266/"/>
-    <id>http://example.com/Popis-a-programovani-modulu-ESP8266/</id>
+    <link href="https://pr033r.github.io/Popis-a-programovani-modulu-ESP8266/"/>
+    <id>https://pr033r.github.io/Popis-a-programovani-modulu-ESP8266/</id>
     <published>2023-01-30T07:58:39.000Z</published>
     <updated>2023-01-30T09:00:16.423Z</updated>
     
@@ -34,22 +34,22 @@
     
     
     
-    <category term="ESP8266" scheme="http://example.com/tags/ESP8266/"/>
+    <category term="ESP8266" scheme="https://pr033r.github.io/tags/ESP8266/"/>
     
-    <category term="WiFi" scheme="http://example.com/tags/WiFi/"/>
+    <category term="WiFi" scheme="https://pr033r.github.io/tags/WiFi/"/>
     
-    <category term="ArduinoUNOWiFiRev3" scheme="http://example.com/tags/ArduinoUNOWiFiRev3/"/>
+    <category term="ArduinoUNOWiFiRev3" scheme="https://pr033r.github.io/tags/ArduinoUNOWiFiRev3/"/>
     
-    <category term="ArduinoIDE" scheme="http://example.com/tags/ArduinoIDE/"/>
+    <category term="ArduinoIDE" scheme="https://pr033r.github.io/tags/ArduinoIDE/"/>
     
-    <category term="MicrosoftAzure" scheme="http://example.com/tags/MicrosoftAzure/"/>
+    <category term="MicrosoftAzure" scheme="https://pr033r.github.io/tags/MicrosoftAzure/"/>
     
   </entry>
   
   <entry>
     <title>ESP WiFi Webserver</title>
-    <link href="http://example.com/ESP-WiFi-Webserver/"/>
-    <id>http://example.com/ESP-WiFi-Webserver/</id>
+    <link href="https://pr033r.github.io/ESP-WiFi-Webserver/"/>
+    <id>https://pr033r.github.io/ESP-WiFi-Webserver/</id>
     <published>2023-01-29T20:51:23.000Z</published>
     <updated>2023-01-30T08:40:00.315Z</updated>
     
@@ -64,22 +64,22 @@
     
     
     
-    <category term="ESP8266" scheme="http://example.com/tags/ESP8266/"/>
+    <category term="ESP8266" scheme="https://pr033r.github.io/tags/ESP8266/"/>
     
-    <category term="WiFi" scheme="http://example.com/tags/WiFi/"/>
+    <category term="WiFi" scheme="https://pr033r.github.io/tags/WiFi/"/>
     
-    <category term="Webserver" scheme="http://example.com/tags/Webserver/"/>
+    <category term="Webserver" scheme="https://pr033r.github.io/tags/Webserver/"/>
     
-    <category term="ArduinoUNOWiFiRev3" scheme="http://example.com/tags/ArduinoUNOWiFiRev3/"/>
+    <category term="ArduinoUNOWiFiRev3" scheme="https://pr033r.github.io/tags/ArduinoUNOWiFiRev3/"/>
     
-    <category term="LEDBlink" scheme="http://example.com/tags/LEDBlink/"/>
+    <category term="LEDBlink" scheme="https://pr033r.github.io/tags/LEDBlink/"/>
     
   </entry>
   
   <entry>
     <title>Stepper motor (servo motor)</title>
-    <link href="http://example.com/hello-world/"/>
-    <id>http://example.com/hello-world/</id>
+    <link href="https://pr033r.github.io/hello-world/"/>
+    <id>https://pr033r.github.io/hello-world/</id>
     <published>2023-01-29T19:22:54.161Z</published>
     <updated>2023-01-29T20:55:14.995Z</updated>
     
@@ -94,11 +94,11 @@
     
     
     
-    <category term="ArduinoUNO" scheme="http://example.com/tags/ArduinoUNO/"/>
+    <category term="ArduinoUNO" scheme="https://pr033r.github.io/tags/ArduinoUNO/"/>
     
-    <category term="servo" scheme="http://example.com/tags/servo/"/>
+    <category term="servo" scheme="https://pr033r.github.io/tags/servo/"/>
     
-    <category term="tranzistorovePole" scheme="http://example.com/tags/tranzistorovePole/"/>
+    <category term="tranzistorovePole" scheme="https://pr033r.github.io/tags/tranzistorovePole/"/>
     
   </entry>
   
